@@ -4,6 +4,19 @@
         <title>Media Card Wrangler</title>
         <language>en</language>
         <item>
+            <title>Version 0.16.5</title>
+            <pubDate>Sat, 12 Sep 2026 15:48:30 -0400</pubDate>
+            <sparkle:version>193</sparkle:version>
+            <sparkle:shortVersionString>0.16.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://github.com/mediacardwrangler/media-card-wrangler-releases/releases/tag/v0.16.5</sparkle:releaseNotesLink>
+            <enclosure
+                url="https://github.com/mediacardwrangler/media-card-wrangler-releases/releases/download/v0.16.5/Media-Card-Wrangler-0.16.5.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="QMgw2LIL0nMkzmSUlAemqwrdAPElrdF5qC2SfYDrxZp8Jnvm1MeduhEAoqNbi/Dq5BcTR9FPtPcsW51BxgG/Cg=="
+                length="4660533" />
+        </item>
+        <item>
             <title>Version 0.16.3</title>
             <pubDate>Sat, 12 Sep 2026 12:50:26 -0400</pubDate>
             <sparkle:version>187</sparkle:version>
