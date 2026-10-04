@@ -9,7 +9,54 @@
             <sparkle:version>305</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://github.com/mediacardwrangler/media-card-wrangler-releases/releases/tag/v1.0.0</sparkle:releaseNotesLink>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.45; margin: 0 6px 8px; }
+h2, h3 { font-size: 13px; font-weight: 600; margin: 14px 0 4px; }
+p { margin: 6px 0; }
+ul { margin: 4px 0 8px; padding-left: 18px; }
+li { margin: 3px 0; }
+code { font-family: ui-monospace, Menlo, monospace; font-size: 12px; }
+</style>
+<p>The first public release of Media Card Wrangler. Point it at the folders you copied off your camera cards, and it turns each one into something an editor can work with, the careful way.</p>
+<h3>What it does</h3>
+<ul>
+<li><strong>Flattens copied card folders in place.</strong> Media moves to the top level of each card, and the <code>DCIM</code>, <code>PRIVATE</code> and clip-folder maze goes away. Drop a whole shoot folder and Wrangler finds the real cards inside it, at any depth.</li>
+<li><strong>Keeps everything that isn't media.</strong> XMLs, LUTs, notes and other support files move into <code>Ω_WRANGLER/STRAYS</code>, one folder per card, with their folder structure kept, and paired sidecars travel with their clips. Nothing is deleted.</li>
+<li><strong>Tidies up.</strong> Finder's <code>.DS_Store</code> files go to the Trash, or into <code>Ω_WRANGLER/CLEANUP TO DELETE</code> on storage with no Trash, and the folders a wrangle empties are removed. A card whose media is already at the top level can be ticked for this tidy-up alone.</li>
+<li><strong>Writes the receipt first.</strong> A report and an undo receipt are saved in <code>Ω_WRANGLER/REPORTS</code> before a single file moves. Undo puts a wrangle back during the session; Restore from Receipt does it after you've quit, putting back everything that is still where the wrangle left it.</li>
+<li><strong>Shows you first.</strong> Preview Wrangle draws the before and after of every card before you commit.</li>
+<li><strong>Knows camera cards.</strong> RED, AVCHD, Insta360, GoPro chapters, FAT32 split clips and other multi-file recordings are handled as sets, with a caution where a workflow needs the original structure. Per-frame RAW layouts such as ARRIRAW, CinemaDNG and DPX are recognized and left exactly as they are. Stills on hybrid cards are treated as media.</li>
+<li><strong>Leaves system folders alone.</strong> Nothing inside a Trash, a recycle bin, or a macOS, Windows, Linux or NAS system folder is moved or removed.</li>
+</ul>
+<h3>Built to be careful</h3>
+<ul>
+<li>Before anything moves, Wrangler checks that nothing has changed since the scan, that every file is readable and unlocked, and that no destination is taken. It won't wrangle a folder that is still on a camera card in its reader, or a read-only copy, and it warns you when a card was copied only minutes ago.</li>
+<li>Existing files are never overwritten. If a move fails partway, the files that already moved go back, and the report says exactly what could and could not be restored.</li>
+<li>Empty folders are removed only with a delete the system refuses for any folder with something inside.</li>
+<li>The Mac stays awake during a long wrangle, and Wrangler won't quit in the middle of moving files.</li>
+</ul>
+<h3>Your license</h3>
+<ul>
+<li>One purchase covers every 1.x release, for one person on up to two Macs at a time. <strong>Manage License</strong> lists the Macs using your license, with a Release button for each, so moving to a new Mac takes one click.</li>
+<li>Without a license, Wrangler runs as a demo with ten free wrangles. Undo and Restore from Receipt always work, licensed or not.</li>
+<li>A licensed Mac keeps working for 30 days if it can't reach the license server.</li>
+</ul>
+<h3>Also in 1.0</h3>
+<ul>
+<li>Help &gt; Contact Support starts an email with your app version already filled in.</li>
+<li>At first launch, Wrangler asks whether to check for updates automatically; you can change this in Settings.</li>
+<li>Big cards scan in seconds, even with tens of thousands of files.</li>
+</ul>
+<h3>Requirements</h3>
+<ul>
+<li>macOS 13 or later, on Apple Silicon or Intel.</li>
+<li>Wrangler organizes copies. It doesn't copy, verify or back up a card, so use it on offloaded, backed-up media.</li>
+</ul>
+<h3>Updating from an earlier version</h3>
+<p>Macs where a license key was entered get one macOS prompt for your login password the first time the updated app opens, asking to let Media Card Wrangler use its saved license key. Enter your password and click Always Allow. Your license is unaffected.</p>
+            ]]></description>
             <enclosure
                 url="https://github.com/mediacardwrangler/media-card-wrangler-releases/releases/download/v1.0.0/Media-Card-Wrangler-1.0.0.zip"
                 type="application/octet-stream"
