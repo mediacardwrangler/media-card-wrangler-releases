@@ -4,6 +4,40 @@
         <title>Media Card Wrangler</title>
         <language>en</language>
         <item>
+            <title>Version 1.1.0</title>
+            <pubDate>Tue, 24 Nov 2026 07:32:47 -0500</pubDate>
+            <sparkle:version>314</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13px; line-height: 1.45; margin: 0 6px 8px; }
+h2, h3 { font-size: 13px; font-weight: 600; margin: 14px 0 4px; }
+p { margin: 6px 0; }
+ul { margin: 4px 0 8px; padding-left: 18px; }
+li { margin: 3px 0; }
+code { font-family: ui-monospace, Menlo, monospace; font-size: 12px; }
+</style>
+<p>Free practice on the sample cards, and a shorter free demo for new Macs.</p>
+<h3>What's new</h3>
+<ul>
+<li><strong>Practice on the sample cards is always free.</strong> Wrangling the Sample Cards from mediacardwrangler.com never uses one of your free Wrangles, even after they're all used, so you can practice as often as you like. If a Wrangle also includes footage of your own, it counts.</li>
+<li><strong>New Macs get three free Wrangles.</strong> A Mac that hasn't run Wrangler before gets three free Wrangles of your own footage. Any Mac that already ran 1.0 keeps its ten.</li>
+<li><strong>Clearer free-Wrangle notes.</strong> Wrangler shows how many free Wrangles this Mac has left, and says when a Wrangle was free because it was sample cards.</li>
+</ul>
+<h3>Updated Terms of Use</h3>
+<ul>
+<li>The Terms of Use were updated on November 23, 2026, to describe the free demo without a fixed number. Wrangler asks you to agree once after updating. With a license, you can keep the Terms you already agreed to instead.</li>
+</ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/mediacardwrangler/media-card-wrangler-releases/releases/download/v1.1.0/Media-Card-Wrangler-1.1.0.zip"
+                type="application/octet-stream"
+                sparkle:edSignature="C5Lbim5SG5zbl38l7oXBP7IwGp9Zzw7OEAizT6EzdSM0JmcKpbzX8uKSdWg4ijP4UZ0nyH8WqJN6VC8m9MuzAA=="
+                length="5294753" />
+        </item>
+        <item>
             <title>Version 1.0.0</title>
             <pubDate>Sun, 04 Oct 2026 18:53:52 -0400</pubDate>
             <sparkle:version>305</sparkle:version>
